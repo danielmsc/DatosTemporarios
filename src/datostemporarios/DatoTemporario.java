@@ -28,7 +28,7 @@ public class DatoTemporario {
 		else if(m.matches() && m.group(3) != null) {
 			DiaDeLaSemana ds = new DiaDeLaSemana(); 
 			respuesta = "@" + USUARIO + " hoy es " + ds.getDiaDeLaSemana();
-			System.out.println(respuesta);
+			//System.out.println(respuesta);
 			}
 		
 		return respuesta;
